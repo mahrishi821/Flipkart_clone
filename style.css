@@ -1,0 +1,143 @@
+/* *{
+    padding:0;
+    margin:0;
+}
+nav{
+    background-color: #2874f0;
+}
+.search {
+    background-color: white;
+    padding : 8px;
+    width:420px;
+    height:20px;
+    margin: 0px 15px;
+    display: :flex;
+    justify-content: space-between;
+    color:#2874f0;
+    box-shadow: -7x -7x 10px rgba(0,0,0,0.1), 7px 7px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+.search input{
+    border:none;
+    width: 380%;
+    outline: none;
+    font-size: 14px;
+}
+.loginBtn{
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none
+    outline: none;
+}
+.Navlink
+{
+    margin:0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+} */
+ /* style.css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search {
+    background-color: white;
+    padding: 8px;
+    width: 420px;
+    height: 20px;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+    color: black;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1), 7px 7px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.loginBtn {
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+}
+
+.Navlink {
+    margin: 0px 20px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.Navlink i {
+    margin-right: 5px;
+} 
+
+/***************************** top nav bar product ***/
+.topProductBar{
+   
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding:10px 50px;
+    border-bottom:1px solid #ccc ;
+    
+    
+}
+.topProductNavBar{
+   width:80px;
+
+   cursor:pointer;
+   flex : 1;
+}
+.topProductNavBar img{
+    width: 64px;
+    height: 64px;
+
+}
+.topProductNavBar p{
+    font-family: 510;
+}
+.topProductNavBar:hover p{
+    color:#2874f0
+}
+
+/**** below the top hover bar **/
+.hover_bar{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid #ccc;
+}
